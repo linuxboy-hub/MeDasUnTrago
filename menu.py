@@ -3,7 +3,7 @@ def menuLiquor():
     return menu
 
 def menuLiquor2():
-    menu = '[1] Return to the main menu\n'
+    menu = '[1] Return to main menu\n'
     return menu
 
 def menuClient():
@@ -14,6 +14,6 @@ def menuBank():
     menu = 'Welcome to the Bank!\n\nPlease insert your account number: '
     return menu
 
-def menuBank2(name):
-    menu = 'Hello '+name+', what do you want to do?\n\n[0] Check your balance\n[1] Deposit money\n[2] Extract money\n[3] Exit'
+def menuBank2(name,key):
+    menu = 'Hello '+name+', your dynamic key is '+str(key)+'; what do you want to do?\n\n[0] Check your balance\n[1] Deposit money\n[2] Extract money\n[3] Exit'
     return menu
